@@ -25,8 +25,8 @@ public class COntroller {
 	@Autowired
     private JavaMailSender javaMailSender;
 	
-	@Scheduled(cron = "0 0 * * * *")
-	@GetMapping("/error")
+	
+	@GetMapping("/")
 	public ArrayList<String> aa()
 	{
 		String pincode="827013";
