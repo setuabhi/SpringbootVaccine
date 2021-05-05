@@ -26,7 +26,7 @@ public class COntroller {
     private JavaMailSender javaMailSender;
 	
 	@Scheduled(cron = "0 0 * * * *")
-	@GetMapping("/Vaccine")
+	@GetMapping("/")
 	public ArrayList<String> aa()
 	{
 		String pincode="827013";
